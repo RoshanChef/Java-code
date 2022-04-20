@@ -1,0 +1,45 @@
+Compiler :
+    info.java (src file) => info.class ( byte code )
+                         	   not understandable by OS
+
+Run :
+
+    byte code =>              JVM                    => OS  		=> Note : just because of jvm java is platform independent language
+               	       Just in time compiler       Machine code
+                	         ( interpreter )
+
+	|  JDK: 
+	|
+ 	|  \     JDK     /
+	|    \   JRE    /
+	|      \ JVM /
+	
+
+
+    JDK : Java development kit
+            java program develop
+                -> Javac.exe => compiler
+                -> Java.exe => Application Launcher 
+
+    JRE : Java Run Time Environment
+      Platform : Environment where software is run.
+      packages : Group of related classes
+
+      |-> JVM => java virtual machine ( Platform dependent )
+      |-> Java predefine packages
+      |->AUTOMATIC Garbage collection
+
+
+      |->Develop By :  james gosling , mike Sheridan , Patrick Naughton
+            Released At : 1995
+   
+The language was initially called as Oak 
+but it was renamed in java
+
+
+        java indonesia નો  એક ટાપુ  છે જયાં પહેલીવાર coffe produced which is known as java coffee.
+
+
+
+
+
