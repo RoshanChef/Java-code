@@ -9,7 +9,8 @@ four types of access modifier(Specifier) are there
 2.protected :
    Ek j package ma game tya use keri shakay
     you can accees this member of any class in same package.
-    It means you can not be access  protected  member in another package.
+    It means you can not be access  protected  member in another package.if
+    you want to access then you need to be subclass that means inherit this class
 
 3.private :
     je class ma declare keryo hoy eni bahar use na keri shakay
@@ -22,6 +23,7 @@ four types of access modifier(Specifier) are there
 
    */
 
+   
 public class a7_accessModifier {
     public static void main(String[] args) {
 

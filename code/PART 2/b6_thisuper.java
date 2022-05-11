@@ -1,5 +1,5 @@
 /*
-Both are reference variable ...
+Both are just a reference variable ...
 when object of child class is a call then the reference variable(this , super) of a function is created
 this two keywords are useful only for sub-class
 It's use in the subclass
@@ -10,9 +10,12 @@ you can use this keyword for methods, variable and constructor
 
 This :
 It's reference variable of subclass type.
+this ---> current obj
 
 Super :
 It's reference variable of superclass type.
+super ---> super obj
+
  */
 
 /*

@@ -1,0 +1,4 @@
+run the code for getting class on particular package
+
+ javac -d . file.java
+ java packageName.file

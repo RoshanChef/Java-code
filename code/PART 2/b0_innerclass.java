@@ -10,7 +10,7 @@ class has four types
 /*b
  1.static class :
 
- >> static inner class have a both static as well as non static members.class
+ >> static inner class has a both static as well as non static members.class
  >> if we want to access member of static inner class then
         we doesn't need to create a object of a outer class
  >> if we want to access a "static member" of inner class then we can do like this
@@ -71,7 +71,6 @@ class school {
 
         @Override
         public String toString() {
-
             return "std is : " + std + "\nuniform is : " + uniform;
         }
 

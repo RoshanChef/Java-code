@@ -2,21 +2,49 @@
 Strings are immutable and can not be changed
         String name=new String("Happy");
 
+        also learn about heap area and pool area 
+
         String is a class but can be used as data type
         Here following name is a reference varible
         String name="Happy";
 
         String Method:
 
-        It can operate a java String. Like find a length,Convert into Upper,lower case
+        It can operate a java String. Like find a length, Convert into Upper,lower case
         It's followes zero base indexing
         It's a return a changed string
+
+
+    _______________________________________
+    |                                      |
+    |                                      |
+    |                                      |   String a = new String("Roshan");
+    |           _____________              |   String b = "kalmathe";
+    |           |            |             |
+    |           |   pool     |             |
+    |           |   Areaa    |             |
+    |           |            |             |
+    |           | Roshan     |             |
+    |           |            |             |
+    |           |  kalmathe  |             |
+    |           ______________             |
+    |                                      |
+    |                      Roshan          |
+    |                                      |
+    |                                      |
+    |           Heap Area                  |
+     ______________________________________
+
+
+
+
 */
 public class a8_string {
     public static void main(String[] args) {
         // String name=new String("Happy");
         String name = "Happy pop song";
-        System.out.print("Orignal String : " + name + "\nNew String : ");
+        String result[] = name.split(" "); 
+        // System.out.print("Orignal String : " + name + "\nNew String : ");
 
         //// Method are followes zero base indexing
         // here we use camel case name convertion
@@ -36,7 +64,7 @@ public class a8_string {
 
         // System.out.println(name.substring(6,12));
         // //Return a New substring from start to End index
-        // //Start index is included but End index is excluded substring(start,end)
+        // //Start index is included but End index is excluded substring(start,end - 1)
 
         // System.out.println(name.replace('p','r'));
         // Return a New String with replce .. old ch >> new ch
@@ -58,6 +86,8 @@ public class a8_string {
 
         // System.out.println(name.equals("happy pop song"));
         // System.out.println(name.equalsIgnoreCase("happy pop SONG"));
+    
+     
    
     }
 }

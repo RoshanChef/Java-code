@@ -22,7 +22,6 @@ class vehicle{
     void run(){
         System.out.println("Vehicle is Running");
     }
-
 }
 class car extends vehicle{
     void run(){

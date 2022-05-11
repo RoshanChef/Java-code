@@ -1,0 +1,27 @@
+basics function of all the collection interface 
+
+        1. add(position , element) , add(element) 
+        2. addAll
+        3. size
+        4. iterate
+        5. remove
+        6. removeAll
+        7. clear
+
+                                     collection
+
+                    /             /           |                  \ 
+interfaces :    List           Queue          Set                 Map
+                1. Linked       1. Priority     1. Hash            1. HashMap
+                2. Array        2. Linked       2. Linked          2. Linked
+                3. Vector       3. ArrayDeque   3. tree            3. tree
+                     |                                             4. Hashable
+                   stack
+                      
+class : Collections
+
+
+
+
+
+                                                                

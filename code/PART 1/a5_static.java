@@ -2,6 +2,7 @@
  * static and Instance
  * Both give us by default value
  * => Static :
+ * 
  * Static keyword is " common fridge shares between multiple objecets "
  * JVM find first static member and allocate them a memory
  * After jvm search for main method
@@ -10,6 +11,7 @@
  * 
  * static blocks
  * ex .. static {
+ *                   static member
  * }
  * 
  * => We can apply java static keyword with variables, methods, blocks and
@@ -18,11 +20,11 @@
  * Instance :
  * It's doesn't take a memory without declare a object
  * It's like a individual fridge
- * it's take independent memory at every object
+ * it's take independent memory for every object
+ * defult var = 0
  * 
  * Local Varable are scopable
- * it's mean when you create local variable it's need a initialize a value by
- * defult it has a blank that's why it give us a error
+ * it's mean when you create local variable it's need a initialization byDefult it has a blank that's why it give us a error
  * 
  */
 public class a5_static {
@@ -41,3 +43,8 @@ public class a5_static {
         
     }
 }
+
+// class member can be variable , method or inner class
+
+
+// static keyword member used for only members of a class like static inner class 

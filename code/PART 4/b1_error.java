@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class b1_error {
     public static void main(String[] args) {
 
@@ -10,7 +12,7 @@ public class b1_error {
         // System.out.println(2);
         // for (int i=1; i<5; i++){
         // System.out.println(2*i+1);
-        // }ja
+        // }
 
         // RUNTIME ERROR
         int k;

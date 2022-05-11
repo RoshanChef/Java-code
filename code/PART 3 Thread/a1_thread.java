@@ -2,6 +2,7 @@
   example :
   work 1: cooking
   work 2: chatting
+  
 Parallelism :
    when two work are done at same time
    that means cooking and chatting done at a same time..

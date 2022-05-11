@@ -31,7 +31,7 @@ abstract class Num {
         System.out.println(x);
     }
 
-    abstract void na(int a, int b);
+     abstract void na(int a, int b);
 }
 
 class Real extends Num {
@@ -50,6 +50,9 @@ public class b9_abstract {
     public static void main(String[] args) {
 
         // Num n1=new Num(); // error
+        
+        // Num n1=new Real(); 
+        // System.out.println(n1.x);
 
         Real n = new Real();
         // n.wel();
